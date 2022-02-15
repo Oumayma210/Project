@@ -1,0 +1,46 @@
+TASK 1:
+
+We consider three integer variables x, y and z.
+We define the circular permutation between x, y and z as the operation which gives x the  value of y, at y the value of z and at z the value of x.
+Write an algorithm allowing circular permutation between x, y and z. The algorithm should read  the 3 values then display them after permutations.
+Example: if x = 3 y = -1 and z = 7, we will have after permutations: x = -1, y = 7 and z = 3.
+
+TASK 2:
+
+A car rental organization offers two rental formulas:
+Rental by the kilometer:
+ for the first 100 kilometers: rate r1 per km,
+ for the kilometers from 101 to 1000: rate r2 per km,
+ beyond 1000 kilometers: rate r3 per km.
+Daily rate: Unlimited mileage at the price per day p_d.
+In both cases, it is necessary to add an insurance (whose cost per day is ins) and the value-added tax (VAT) .
+The quantities r1, r2, r3, p_d, ins as well as the rate of VAT are considered as constants.
+
+Take, for example: r1 = 0.7 r2 = 0.4 r3 = 0.2 p_d = 100 ins= 0.3 (expressed in dinars) and rate VAT = 0.18.
+Write an algorithm which, given the total number of kilometers and the number of days of location, calculates the total costs of the two tariffs 
+and indicates by a label the most suitable solution advantageous for the client.
+
+
+TASK 3:
+
+A date is given as an integer of 6 digits. For example, the number 181019 represents October 18, 2019.
+Develop an algorithm that has such a number as input, checks that this number corresponds to a valid date and displays the following result:
+Day: 18
+Month: October
+Year: 2019
+
+
+TASK 4:
+
+We propose to check the validity of an arithmetic expression containing numerical values, arithmetic operations and possibly opening parentheses ‘(‘ and closing parentheses ‘)’.
+Such an expression is said to be valid if:
+- Any character of this expression is: either a number, or an operator (‘+’, ‘-‘, ‘*’, ‘/’), or an opening parenthesis ‘(‘ or a closing parenthesis ‘)’.
+- The parentheses of this expression are consistent, that is to say that to an opening parenthesis ‘(‘ necessarily corresponds to a closing parenthesis ‘)‘ which is later.
+Write an algorithm that decides the validity of an expression read character by character and ending with ‘#’.
+
+A valid expression :  5+(6*9)#
+An invalid expression : 6+(8+(9)#
+
+
+
+
